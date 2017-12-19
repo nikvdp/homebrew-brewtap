@@ -12,6 +12,7 @@ class Lemonade < Formula
     cellar :any_skip_relocation
     sha256 "7a3eeb19e2afce398ccfaefbd71b61d7fc99644e8228916e2dde12ebfa2cb703" => :el_capitan
     sha256 "b1be92f40317322cbadb90b6646d499965d287e85f49d67ab6a218b46db8f7d9" => :x86_64_linux
+    sha256 "db38b4bcfe56c6d8f80599001d81310413bae5a59b7cd56700b025065f8639a0" => :high_sierra
   end
 
   head "https://github.com/pocke/lemonade.git"
