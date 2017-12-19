@@ -1,4 +1,10 @@
 class Bfs < Formula
+  bottle do
+    root_url "http://nikvdp.com/homebrew-bottles"
+    cellar :any_skip_relocation
+    sha256 "e6adaa9a12398478ec3400e64696f6f91679f1fcc202083f9454735eceb4f415" => :el_capitan
+  end
+
   version '1.1.4'
   desc "Breadth-first version of find."
   homepage "https://github.com/tavianator/bfs"
