@@ -1,6 +1,11 @@
 class Howdoi < Formula
   include Language::Python::Virtualenv
 
+  bottle do
+    root_url "http://nikvdp.com/homebrew-bottles"
+    cellar :any_skip_relocation
+    sha256 "6844934afd10d03fe507dc493620cb185288dc851ef023341b4aa5058aa74feb" => :high_sierra
+  end
   desc "Howdoi"
   homepage "https://github.com/gleitz/howdoi"
   url "https://files.pythonhosted.org/packages/05/b9/b5a2e28972d67d80350f9fcbd7910bda76684b342ca3326ae1670e616fb5/howdoi-1.1.11.tar.gz"
