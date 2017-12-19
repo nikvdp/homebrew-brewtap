@@ -24,6 +24,13 @@ end
 class Pleaserun < Formula
   url "pleaserun", :using => RubyGemsDownloadStrategy
   version "0.0.30"
+  sha256 "1701322e278547a35191ebc289e0a9127322b962da2f3e5ded0acf7f0ccdf641"
+    
+  bottle do
+    cellar :any_skip_relocation
+    root_url "http://nikvdp.com/homebrew-bottles"
+    sha256 "3dc772efc7e88b38fb9833bfe49ebdfc061391c64db6ff484ed4b866faf7f5ff" => :high_sierra
+  end
 
   def install
     # Copy user's RubyGems config to temporary build home.
