@@ -2,10 +2,11 @@ require "language/go"
 
 class Lemonade < Formula
   desc "Lemonade remote utility tool"
-  homepage "https://github.com/pocke/lemonade"
-  url "https://github.com/progrium/termshare/archive/v0.2.0.tar.gz"
-  sha256 "fa09a5492d6176feff32bbcdb3b2dc3ff1b5ab2d1cf37572cc60eb22eb531dcd"
-  revision 1
+  # homepage "https://github.com/pocke/lemonade"
+  url "https://github.com/pocke/lemonade/archive/v1.1.1.zip"
+  version '1.1.1'
+  sha256 "d51a78f51bf0504e8c84c91f962859b25ba14e469f2e3dffcf8d7da495667cbb"
+  # revision 1
 
   head "https://github.com/pocke/lemonade.git"
 
@@ -17,8 +18,8 @@ class Lemonade < Formula
     # path.install Dir["*"]
     # Language::Go.stage_deps resources, buildpath/"src"
 
-    cd path do
-      system "go", "get" "https://github.com/pocke/lemonade"
+    cd buildpath do
+      system "go", "get", "github.com/pocke/lemonade"
       system "go", "build", "-o", "lemonade"
 
       bin.install "lemonade"
