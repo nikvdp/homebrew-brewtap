@@ -4,7 +4,7 @@ class Fzf < Formula
   desc "Fzf fuzzy finder"
   homepage "https://github.com/junegunn/fzf"
   url "https://github.com/junegunn/fzf/archive/0.17.3.zip"
-  version '0.17.3.zip'
+  version '0.17.3'
   sha256 "d1f814b9283d95add493545c5f0fe78d461b8b8fa9a9e1da8da62cac061d2916"
 
   bottle do
