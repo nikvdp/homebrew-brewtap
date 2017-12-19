@@ -3,6 +3,7 @@ class Bfs < Formula
     root_url "http://nikvdp.com/homebrew-bottles"
     cellar :any_skip_relocation
     sha256 "e6adaa9a12398478ec3400e64696f6f91679f1fcc202083f9454735eceb4f415" => :el_capitan
+    sha256 "2ab9e8d124fef5dc94a136a107378d96cc0d9c9bc06f2a72798daac52f58ea5f" => :x86_64_linux
   end
 
   version '1.1.4'
