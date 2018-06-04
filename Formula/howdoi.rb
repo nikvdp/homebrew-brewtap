@@ -11,7 +11,7 @@ class Howdoi < Formula
   url "https://files.pythonhosted.org/packages/05/b9/b5a2e28972d67d80350f9fcbd7910bda76684b342ca3326ae1670e616fb5/howdoi-1.1.11.tar.gz"
   sha256 "5c4704da0487049d3d6f0a796ac52cd1ac319e8c8d41f35beae8dd64b1c5f12b"
 
-  depends_on :python3
+  depends_on "python"
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/23/3f/8be01c50ed24a4bd6b8da799839066ce0288f66f5e11f0367323467f0cbc/certifi-2017.11.5.tar.gz"
