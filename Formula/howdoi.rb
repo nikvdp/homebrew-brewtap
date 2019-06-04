@@ -2,7 +2,7 @@ class Howdoi < Formula
   include Language::Python::Virtualenv
 
   bottle do
-    root_url "http://nikvdp.com/homebrew-bottles"
+    root_url "http://srv.nikvdp.com/homebrew-bottles"
     cellar :any_skip_relocation
     sha256 "6844934afd10d03fe507dc493620cb185288dc851ef023341b4aa5058aa74feb" => :high_sierra
   end

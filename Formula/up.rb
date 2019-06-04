@@ -12,7 +12,7 @@ class Up < Formula
   depends_on "go" => :build
 
   bottle do
-    root_url "http://nikvdp.com/homebrew-bottles"
+    root_url "http://srv.nikvdp.com/homebrew-bottles"
     cellar :any_skip_relocation
     sha256 "8087432cd6f88420cc3f01f238275cb5c7403ed329e58a31dba35db50cfa9ee6" => :high_sierra
   end

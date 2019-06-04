@@ -28,7 +28,7 @@ class Pleaserun < Formula
     
   bottle do
     cellar :any_skip_relocation
-    root_url "http://nikvdp.com/homebrew-bottles"
+    root_url "http://srv.nikvdp.com/homebrew-bottles"
     sha256 "3dc772efc7e88b38fb9833bfe49ebdfc061391c64db6ff484ed4b866faf7f5ff" => :high_sierra
     sha256 "118e4ee392e693795a783b7025acd0fb81020139547fd6498a3a5f422c7cd29a" => :x86_64_linux
   end

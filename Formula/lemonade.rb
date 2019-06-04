@@ -8,7 +8,7 @@ class Lemonade < Formula
   sha256 "d51a78f51bf0504e8c84c91f962859b25ba14e469f2e3dffcf8d7da495667cbb"
 
   bottle do
-    root_url "http://nikvdp.com/homebrew-bottles"
+    root_url "http://srv.nikvdp.com/homebrew-bottles"
     cellar :any_skip_relocation
     sha256 "7a3eeb19e2afce398ccfaefbd71b61d7fc99644e8228916e2dde12ebfa2cb703" => :el_capitan
     sha256 "b1be92f40317322cbadb90b6646d499965d287e85f49d67ab6a218b46db8f7d9" => :x86_64_linux
